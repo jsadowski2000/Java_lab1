@@ -3,19 +3,39 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Scanner inter = new Scanner(System.in);
 
-        /* ćw.2 */
+        System.out.println("Enter name, surname, age and index number :");
 
-        /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
+        System.out.println("Enter name: ");
+        String name = inter.nextLine();
+        System.out.println("Enter Surname: ");
+        String surname = inter.nextLine();
+        System.out.println("Enter age: ");
+        int age = inter.nextInt();
+        System.out.println("Enter Indeks number: ");
+        int indeks = inter.nextInt();
 
-        /*
-        *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
-        *    mnożenia, dziealenia i modulo na zmiennych:
-        *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
-        *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
-        *  */
+        // Output input by user
+        System.out.println("Name: " + name);
+        System.out.println("Surname: " + surname);
+        System.out.println("Age: " + age);
+        System.out.println("Indeks: " + indeks);
+        System.out.printf("Name is:  %s",name,);
 
 
+        /* ćw.3 */
+
+        /*  zad.1 napisać interfejs który bedzie słuzył do wpisania danych osobowych:
+        *   a) Imię, nazwisko, wiek, nr indeksu,
+        *   dane mają być wprowadzane z klawiatury w konsoli
+        *   b) wyświetlić dane za pomocą println i printf
+        */
+
+
+        /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
+        *   wynik wyświetlić w konsoli programu
+        */
 
     }
 }
